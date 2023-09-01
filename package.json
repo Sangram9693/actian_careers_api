@@ -1,0 +1,31 @@
+{
+  "name": "actian_careers_api",
+  "version": "1.0.0",
+  "description": "API to retrive list of opeing jobs from actian careers page",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "nodemon src/app.ts",
+    "build": "npx tsc",
+    "start": "node dist/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.5.7",
+    "axios": "^1.5.0",
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.18.2",
+    "node-cache": "^5.1.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2",
+    "winston": "^3.10.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.4",
+    "node-mocks-http": "^1.13.0",
+    "nodemon": "^3.0.1",
+    "ts-jest": "^29.1.1"
+  }
+}
