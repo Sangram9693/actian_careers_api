@@ -69,6 +69,9 @@ app.listen(PORT, () => {
 - As HTML parsing is expensive task so I have used `node-cache` package for caching the HTML data. But cache is valid for `5min` and it set as `TTL=300`.
 - If cache is expaired then again HTML will parse when request come.
 
+<img width="319" alt="Flow" src="https://github.com/Sangram9693/actian_careers_api/assets/34838219/46ea3ff8-eee3-43a7-9d45-61472655565f">
+
+
 # API
 
 ```
